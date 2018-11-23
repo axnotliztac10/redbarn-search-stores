@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import YourComponent from "./YourComponent";
+import StoresMap from "./StoresMap";
 
 class App extends Component {
   render() {
@@ -38,7 +38,7 @@ class App extends Component {
           <li>That said, code that is easy to follow is always appreciated :)</li>
         </ul>
 
-        <YourComponent />
+        <StoresMap />
       </div>
     );
   }

@@ -1,3 +1,54 @@
+
 .App {
-  margin: 15px;
+  margin: 10px;
+}
+
+.search-map-container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: rows;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.stores-map {
+  width: calc(100% - 220px) !important;
+  position: relative !important;
+}
+
+.sidebar {
+  width: 220px;
+  padding: 5px;
+  overflow-y: auto;
+}
+
+.search-stores {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-card {
+  margin: 40px auto;
+  width: 50%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.modal-card > div {
+  overflow: visible;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cancel-search {
+  justify-content: flex-end;
 }
